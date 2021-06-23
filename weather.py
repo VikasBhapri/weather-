@@ -30,3 +30,4 @@ weather_object = json.dumps(api_data,indent = 2)
 with open('weather.txt','a') as f:
   f.write("\n Today: \n")
   f.write(weather_object)
+  f.close()
